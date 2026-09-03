@@ -7,7 +7,12 @@ authors = [
     { name = "Ayesh Ahmad", email = "aayesh.ahmadd@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.2",
+    "requests>=2.34.2",
+    "tokenizers>=0.23.2",
+    "torch>=2.14.0",
+]
 
 [project.scripts]
 reasoning-llm-from-scratch = "reasoning_llm_from_scratch:main"
