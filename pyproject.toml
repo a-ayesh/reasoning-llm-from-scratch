@@ -1,0 +1,17 @@
+[project]
+name = "reasoning-llm-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ayesh Ahmad", email = "aayesh.ahmadd@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+reasoning-llm-from-scratch = "reasoning_llm_from_scratch:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
