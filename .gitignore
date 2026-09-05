@@ -4,3 +4,7 @@ __pycache__/
 
 # Qwen3
 qwen3/
+
+# Dataset
+*.json
+*.jsonl
